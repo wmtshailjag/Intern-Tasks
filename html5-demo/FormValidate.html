@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>Html5 form-validation (3)</h1>
+    <form action="" method="post">
+    <fieldset>
+        <legend>Booking Details</legend>
+        
+        <label for="name">FullName (required):</label>
+        <input id="name" name="name" value="" required aria-required=”true” placeholder="firstname lastname" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+">
+        <hr>
+        <div>
+            <label>Website:</label>
+            <input type="url" id="website" name="website" value="" pattern="http?://.+" placeholder="http://name of website" >
+        </div><hr>
+        Completed: <input type="range" name="satisfaction" min="0" max="5">
+        <hr>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </fieldset>
+</form> 
+</body>
+</html>

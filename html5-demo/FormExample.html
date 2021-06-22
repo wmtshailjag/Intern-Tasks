@@ -1,0 +1,172 @@
+<Html>
+<head> 
+	<title>
+	Registration Page
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<style type="text/css">
+		body{
+			background-color: #F0F0F0;
+		}
+		label{
+	    display: inline-block;
+	    float: left;
+	    clear: left;
+	    width: 15%;
+	    text-align: right;
+		}
+		input {
+		  margin-left: 20px;
+		  display: inline-block;
+		  float: left;
+		}
+		select {
+		  margin-left: 20px;
+		  display: inline-block;
+		  float: left; 
+		}
+		i{
+			padding-left: 10px;
+			color:#1E90FF;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h3>Personal Information</h3>
+			<label> Firstname: </label>       
+			<input type="text" name="firstname" size="30" required/> <br> <br>
+			
+			<label> Lastname: </label>       
+			<input type="text" name="lastname" size="30" required/> <br> <br>
+			
+			<label> Date of Birth :</label> 
+			<select>
+				<option value="Month">Month</option>
+				<option value="January">January</option>
+				<option value="January">January</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>
+			<select >
+				<option value="day">day</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select >
+				<option value="Year">Year</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+			</select>
+			<i  class="fas fa-question-circle"></i>		
+			<br>
+			<br>
+			<label> Gender :</label>
+			<select style="width:15%;">
+				<option value="Gender">Choose Gender</option>
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Other">Other</option>
+			</select>
+			<i class="fas fa-question-circle"></i>		
+			<br>
+			<br>
+		<h3>Account Information</h3>
+			<label>Email:</label>       
+			<input type="email" name="Email" size="30" placeholder="Your Email will be your Username" required/> 
+			 <br><br>
+			<label>Retype Email:</label>       
+			<input type="email" name="RetypeEmail" size="30"/> <br> <br>
+			<label> Password: </label>       
+			<input type="password" name="Password" placeholder="Min 8 character,1 Number" size="30" minlength="8" required pattern="[A-Za-z-0-9]+" /> 
+			 <br><br>
+			<label> Retype Password: </label>       
+			<input type="passowrd" name="retypepassword" size="30"/> <br> <br>
+			<label> Security Question:</label>
+			<select style="width:15%;">
+				<option value="Gender">Choose Security Question</option>
+				<option value="FavouriteColor">Which is your Favoutite Color?</option>
+				<option value="PrimarySchool">What primary school did you attend?</option>
+				<option value="ChildhoodHero">Who was your childhood hero?</option>
+			</select>
+			<i class="fas fa-question-circle"></i>		
+			<br><br>
+			<label> Security Answer: </label>       
+			<input type="text" name="SecurityAnswer" size="30"/>
+			<label style="margin-left: 10%">(No-Case Sensitive)</label><br><br>
+			
+		<h3>Contact Information</h3>
+			<label>Address:</label>       
+			<input type="text" name="Address" size="30"/> <br> <br>
+			<label>City:</label>       
+			<input type="text" name="City" size="30"/> <br> <br>
+			<label>State</label>
+			<select style="width:15%;">
+				<option value="State">Choose State</option>
+				<option value="Gujarat">Gujarat</option>
+				<option value="Maharastra">Maharastra</option>
+				<option value="Madhya Pradesh">Madhya Pradesh</option>
+				<option value="Rajasthan">Rajasthan</option>
+			</select><br><br>
+			<label>ZipCode:</label>       
+			<input type="text" name="Code" size="5" /> 
+			<input type="text" name="Code" placeholder="optional" size="5"/><br> <br>
+			<label>PhoneNumber:</label>       
+			<input type="text" name="PhoneNumber" size="10" /> 
+			<i  class="fas fa-question-circle"></i>
+			<select>
+				<option value="Mobile">Mobile</option>
+				<option value="Telephone">Telephone</option>
+			</select>
+			<label style="margin-left: 10%">(No-Space or dashes)</label><br><br>
+			<input type="submit" name="Submit" value="Submit">
+			<input type="Reset" name="Submit" value="cancel">
+	</form>
+	
+</body>
+</Html>
