@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.responsive {
+  width: 100%;
+  max-width:400px;
+  height: auto;
+}
+<style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
+
+      body {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(header.jpg) no-repeat center;
+        height: 200px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+</style>
+</head>
+<body>
+
+        <picture>
+          <source media="(max-width: 799px)" srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/responsive-images/elva-480w-close-portrait.jpg">
+          <source media="(min-width: 800px)" srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/responsive-images/elva-800w.jpg">
+          <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+        </picture>
+
+        
+
+        <img srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/responsive-images/elva-fairy-480w.jpg 480w,https://mdn.github.io/learning-area/html/multimedia-and-embedding/responsive-images/elva-fairy-800w.jpg 800w" 
+        sizes="(max-width: 600px) 480px, 800px" 
+        src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/responsive-images/elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+  
+
+<h2>Responsive Image</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<img src="webmob.png" alt="Nature" class="responsive" width="600" height="400">
+
+</body>
+</html>
