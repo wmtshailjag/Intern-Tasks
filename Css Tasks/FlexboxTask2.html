@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the body */
+    HTML,
+    body {
+      font-family: Arial;
+      margin: 0;
+      height: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .side {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .textbox {
+      display: flex;
+      background-color: #fff;
+      width: 40%;
+      height: 30%;
+      margin: 2%;
+      border: 2px solid #000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button {
+      display: flex;
+      background-color: #fff;
+      width: 20%;
+      height: 30%;
+      margin: 2%;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      border: 2px solid #000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btopleft {
+      background-color: #fff;
+      width: 10%;
+      height: 80%;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .bbottomleft {
+      background-color: #fff;
+      width: 10%;
+      height: 80%;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .btopright {
+      background-color: #fff;
+      width: 10%;
+      height: 80%;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .bbottomright {
+      background-color: #fff;
+      width: 10%;
+      height: 80%;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .bm1 {
+      background-color: #fff;
+      width: 10%;
+      height: wvw;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .bm2 {
+      background-color: #fff;
+      width: 10%;
+      height: 6vw;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .bm3 {
+      background-color: #fff;
+      width: 10%;
+      height: 6vw;
+      border: 2px solid #000;
+      margin: 5px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="background:White;padding:5px;border: 3px solid green;">
+    <h4 style="text-align:center">Design 2</h4>
+  </div>
+  <div class="container">
+    <div class="side" style="background-color:#FF8C00;height: 30%;">
+      <div class="row" style="display: flex;justify-content: center;">
+        <div class="textbox">search Text</div>
+        <div class="button">Button</div>
+      </div>
+      <div class="row">
+        <h5
+          style="width: 100%;justify-content: center; align-items: center;display: flex; color: white;font-weight: bolder;">
+          A</h5>
+      </div>
+    </div>
+    <div class="side" style="height: 30%;width: 100%; background-color:#FFA07A;">
+      <div class="row" style="justify-content: space-between;flex-wrap: wrap;">
+        <div class="btopleft" style="display: flex;justify-content: center;align-items: center;">
+          b1</div>
+        <div class="btopright" style="display: flex;justify-content: center;align-items: center;">
+          b2</div>
+      </div>
+      <div class="row" style="flex-wrap: wrap;justify-content: center;align-items: center;">
+        <div style="color:black;display: flex;font-weight: bolder;">B</div>
+      </div>
+      <div class="row" style="justify-content: space-between;flex-wrap: wrap;">
+        <div class="bbottomleft" style="display: flex;justify-content: center;align-items: center;">
+          b3</div>
+        <div class="bbottomright" style="display: flex;justify-content: center;align-items: center;">
+          b4</div>
+      </div>
+
+
+    </div>
+    <div class="side" style="height: 30%; background-color:#32CD32;align-items: center;">
+      <div class="row">
+        <h5 style="width: 100%;color: white; display: flex;justify-content: center;font-weight: bolder;">C</h5>
+      </div>
+      <div class="row" style="display: flex;justify-content: space-around;">
+        <div class="bm1" style="display: flex;justify-content: center;align-items: center;">b1</div>
+        <div class="bm2" style="display: flex;justify-content: center;align-items: center;">b2</div>
+        <div class="bm3" style="display: flex;justify-content: center;align-items: center;">b3</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
