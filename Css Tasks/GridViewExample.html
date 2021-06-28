@@ -35,7 +35,7 @@ header, footer, article, nav, div {
   } 
 /* layout for small devices/viewports. */
 @media screen and (max-width: 600px) {
-  .body { 
+  body { 
     grid-template-areas: 
       "header"
       "nav"
@@ -49,7 +49,7 @@ header, footer, article, nav, div {
 }
  /* layout for Tablet devices/viewports. */
  @media screen and (max-width: 1025px) and (min-width: 601px) {
-  .body { 
+  body { 
     grid-template-areas: 
       "header header"
       "nav nav"
@@ -73,7 +73,7 @@ header, footer, article, nav, div {
 }
 </style>
 </head>
-<body class="body">
+<body>
   <header id="pageHeader">Header</header>
   <nav id="nav">Nav</nav>
   <article id="main">main</article>
@@ -82,5 +82,3 @@ header, footer, article, nav, div {
   <footer id="pageFooter">Footer</footer>
 </body>
 </html>
-
-
