@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
-<title>CSS Grid Template 2</title>
 <head>
+<title>CSS Grid</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body { 
   display: grid;
@@ -34,7 +36,7 @@ header, footer, article, nav, div {
   grid-area: ads; 
   } 
 /* layout for small devices/viewports. */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body { 
     grid-template-areas: 
       "header"
@@ -48,7 +50,7 @@ header, footer, article, nav, div {
  }
 }
  /* layout for Tablet devices/viewports. */
- @media screen and (max-width: 1025px) and (min-width: 601px) {
+ @media only screen and (max-width: 1025px) and (min-width: 501px) {
   body { 
     grid-template-areas: 
       "header header"
@@ -60,7 +62,7 @@ header, footer, article, nav, div {
  }
 }
 /* layout for laptop devices/viewports. */
-@media screen and (min-width:1026px) {
+@media only screen and (min-width:1026px) {
   body {
   grid-template-areas: 
     "header header header"
@@ -82,3 +84,5 @@ header, footer, article, nav, div {
   <footer id="pageFooter">Footer</footer>
 </body>
 </html>
+
+
