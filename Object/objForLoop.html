@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object with loop</title>
+    </head>
+<body>
+
+<div  id="demo"></div>
+
+<script>
+const person = {
+  fname:"Shailja",
+  lname:"G",
+  company:"WEBMOB Technology"
+}; 
+
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>

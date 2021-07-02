@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Merge of array</title>
+  </head>
+  <body>
+    <div id="merge2"></div>
+    <div id="merge"></div>
+
+    <script>
+      const fruit = ["Mango", "Orange"];
+      const vegetable = ["Potato", "Tomato", "Lemon"];
+      const leafy = ["Spanich", "cabbage"];
+      const food = fruit.concat(vegetable, leafy);
+
+      document.getElementById("merge").innerHTML =
+        "<b>Merge of 2 Array :<br></b>" + food;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Array Some</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      const numbers = [45, 4, 9, 16, 25];
+      let someOver18 = numbers.some(myFunction);
+
+      document.getElementById("demo").innerHTML =
+        "45, 4, 9, 16, 25 some array over 18 is " + someOver18;
+
+      function myFunction(value, index, array) {
+        return value > 18;
+      }
+    </script>
+  </body>
+</html>

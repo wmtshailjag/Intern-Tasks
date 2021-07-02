@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Array Every</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      const numbers = [45, 19, 25];
+      let allOver18 = numbers.every(myFunction);
+
+      document.getElementById("demo").innerHTML =
+        "45, 19, 25 All over 18 is " + allOver18;
+
+      function myFunction(value, index, array) {
+        return value > 18;
+      }
+    </script>
+  </body>
+</html>

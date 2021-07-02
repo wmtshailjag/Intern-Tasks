@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Push() pop() Shift() unshift() lenght() change element delete()
+    </title>
+  </head>
+  <body>
+    <h2>Push() pop() Shift() unshift()</h2>
+    <div id="demo"></div>
+    <div id="array"></div>
+    <div id="push"></div>
+    <div id="pop"></div>
+    <div id="pop2"></div>
+    <div id="shift"></div>
+    <div id="unshift"></div>
+    <div id="len"></div>
+    <div id="changeele"></div>
+    <div id="delete"></div>
+
+    <script>
+      const fruits = ["Banana", "Orange", "Apple", "Mango"];
+      document.getElementById("demo").innerHTML =
+        "toString() Example:<br>  " + fruits.toString() + "<br><br>";
+      document.getElementById("array").innerHTML =
+        "join('*') Example: <br> " + fruits.join(" * ") + "<br><br>";
+      fruits.push("CHERRIES");
+      document.getElementById("push").innerHTML =
+        "Array after New Push 'Cherry': <br> " + fruits + "<br><br>";
+      fruits.pop();
+      document.getElementById("pop").innerHTML =
+        "Array after pop(): <br> " + fruits + "<br><br>";
+      fruits.pop();
+      document.getElementById("pop2").innerHTML =
+        "second time pop(): <br> " + fruits + "<br><br>";
+      fruits.shift();
+      document.getElementById("shift").innerHTML =
+        "Shift() : <br> " + fruits + "<br><br>";
+      fruits.unshift("pineapple");
+      document.getElementById("unshift").innerHTML =
+        "unShift() : <br> " + fruits + "<br><br>";
+      fruits[fruits.length] = "kiwi";
+      document.getElementById("len").innerHTML =
+        "add element by length method : <br> " + fruits + "<br><br>";
+      fruits[2] = "mango";
+      document.getElementById("changeele").innerHTML =
+        "change the apple to mango by the index : <br> " + fruits + "<br><br>";
+      delete fruits[2];
+      document.getElementById("delete").innerHTML =
+        "delete mango by delete method that is now undefined : <br> " +
+        fruits +
+        "<br><br>";
+    </script>
+  </body>
+</html>
