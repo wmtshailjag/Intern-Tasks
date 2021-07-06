@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery CSS and DOM</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="demo">Changed The Font Size. Div 2 is Removed</div>
+<div id="id02">Hello Sweden!</div>
+
+<script>
+$(document).ready(function() {
+  $("#demo").css("font-size","35px");
+  $("#id02").remove();
+});
+</script>
+
+</body>
+</html> 
