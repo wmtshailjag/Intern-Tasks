@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Popup Alerts</title>
+</head>
+
+<body>
+    <button onclick="myAlert()">Click For Alert</button>
+    <br /><br /><br />
+    <button onclick="myFunction()">Conform Example</button>
+
+    <div id="demo"></div>
+    <br /><br /><br />
+    <button onclick="myPrompt()">Prompt Example</button>
+
+    <script>
+        function myAlert() {
+            alert("I am an alert box!");
+        }
+        function myFunction() {
+            var txt;
+            if (confirm("Conform Alert Box...Press a button!")) {
+                txt = "You pressed OK!";
+            } else {
+                txt = "You pressed Cancel!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+        function myPrompt() {
+            let text;
+            let person = prompt("Please enter your name:", "abc");
+            if (person == null || person == "") {
+                text = "User cancelled the prompt.";
+            } else {
+                text = "You Entered:  " + person;
+            }
+            alert(text);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Elements</title>
+  </head>
+  <body>
+    <div>Finding HTML Elements by Tag Name.</div>
+
+    <div id="demo"></div>
+
+    <script>
+      const element = document.getElementsByTagName("div");
+
+      document.getElementById("demo").innerHTML =
+        "The text in first paragraph (index 0) is: " + element[0].innerHTML;
+    </script>
+  </body>
+</html>

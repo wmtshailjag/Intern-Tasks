@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo">Fetch a file to change this text.</p>
+    <script>
+      fetch("https://www.w3schools.com/js/js_api_fetch.asp")
+        .then((response) => response.text())
+        .then((data) => console.log(data))
+        .catch(err => console.log('Request Failed', err)); // Catch errors
+    </script>
+  </body>
+</html>
