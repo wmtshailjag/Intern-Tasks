@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Server</title>
+  </head>
+
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      var myJob = { Company: "WEBMOB TECH", Since: 10, location: null };
+      var myStringify = JSON.stringify(myJob);
+      window.location="Recieve_Data.html?x=" + myStringify;
+    </script>
+  </body>
+</html>

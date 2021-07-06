@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Array</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      const myJSON =
+        '{"name":"John", "age":30, "cars":["Ford", "BMW", "Fiat"]}';
+      const myObj = JSON.parse(myJSON);
+
+      document.getElementById("demo").innerHTML = myObj.name + " Likes "+ myObj.cars[1] ;
+    </script>
+  </body>
+</html>
