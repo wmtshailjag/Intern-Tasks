@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery Chaining</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("div").css("backgroundColor", "pink").slideUp(2000).slideDown(2000);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div style="width: 100px; height: 200px; background-color: cyan"></div>
+
+    <button>Click me</button>
+  </body>
+</html>

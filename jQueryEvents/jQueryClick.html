@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Click</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("div").click(function () {
+          $(this).hide();
+        });
+        $("button").click(function () {
+          $(this).hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div>Click to disappear this div.</div>
+    <br />
+    <button>Click to dissaper this button!</button><br /><br />
+    <div>Click To hide me...!!</div>
+  </body>
+</html>

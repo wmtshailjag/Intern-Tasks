@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Hide and Show</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("div").hide();
+        });
+        $("#show").click(function () {
+          $("div").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+    <div>Click "Hide" button, To hide.</div>
+  </body>
+</html>

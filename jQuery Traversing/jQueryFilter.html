@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> jquery Filters</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("div").first().css("background-color", "yellow");
+});
+$(document).ready(function(){
+  $("div").last().css("background-color", "blue");
+});
+$(document).ready(function(){
+  $("p").eq(1).css("background-color", "gray");
+});
+$(document).ready(function(){
+  $("p").filter(".fil").css("background-color", "brown");
+});
+$(document).ready(function(){
+  $("p").not(".fil").css("color", "green");
+});
+</script>
+</head>
+<body>
+
+<h5>Color of text With green color has not() applied in p tag</h5>
+<div style="border: 1px solid black;">
+  <p>This is First() [index 0 of p]</p>
+</div>
+<br>
+
+<div style="border: 1px solid black;">
+  <p>This is eq(1). [index 1 of p]</p>
+  <p>Another paragraph in another div. [index 2 of p]</p>
+</div>
+<br>
+<div style="border: 1px solid black;">
+    <p class="fil">And Filter() with class. [index 3 of p]</p>
+    <p>Another paragraph in another div. [index 4 of p]</p>
+  </div>
+  <br>
+<div style="border: 1px solid black;">
+  <p class="fil">This is last(). And Filter() with class  [index 5 of p]</p>
+</div>
+
+</body>
+</html>

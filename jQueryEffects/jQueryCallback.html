@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Callback</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("div").hide("slow", function () {
+            alert("The Content is now hidden");
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button>Hide</button>
+
+    <div>This is a Callback Content that will hide.</div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Mouse Events</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#p1").mouseenter(function () {
+          $("div").css("background-color", "yellow");
+        });
+      });
+      $(document).ready(function () {
+        $("#p1").mouseleave(function () {
+          $("div").css("background-color", "darksalmon");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      id="p1"
+      style="width: 130px; height: 130px; background-color: darksalmon"
+    >
+      Enter this paragraph.
+    </div>
+  </body>
+</html>

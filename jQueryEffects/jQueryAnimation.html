@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery Animation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("div").animate({
+            top: "+=10px",
+            left: "250px",
+            height: "+=30px",
+            width: "+=30px",
+            opacity: "0.75",
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button>Start Animation (Click Again and again to increase box)</button>
+    <div
+      style="
+        background: #98bf21;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+      "
+    ></div>
+  </body>
+</html>
