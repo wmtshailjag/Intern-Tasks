@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geting Current Date</title>
+  </head>
+  <body>
+    <div>Date Format is : MM-DD-YYYY</div>
+    <div id="demo"></div>
+    <script>
+      var d = new Date();
+      var dd = d.getDate();
+      var mm = d.getMonth() + 1;
+      var yyyy = d.getFullYear();
+
+      if (dd < 10) {
+        dd = "0" + dd;
+      }
+      if (mm < 10) {
+        mm = "0" + mm;
+      }
+
+      document.getElementById("demo").innerHTML =
+        mm + "-" + dd + "-" + yyyy + "<br>" + mm + " / " + dd + " / " + yyyy;
+    </script>
+  </body>
+</html>

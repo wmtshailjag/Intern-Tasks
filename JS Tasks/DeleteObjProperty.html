@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete a property from an object</title>
+  </head>
+  <body>
+    <script>
+      var student = {
+        name: "David Rayy",
+        sclass: "VI",
+        rollno: 12,
+      };
+      document.write(
+        "<b>Before Deleting RollNo:</b>" + JSON.stringify(student) + "<br><br>"
+      );
+      delete student.rollno;
+      document.write(
+        "<b>After Deleting RollNo:</b>" + JSON.stringify(student) + "<br>"
+      );
+    </script>
+  </body>
+</html>
