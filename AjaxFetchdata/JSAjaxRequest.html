@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h5>The XMLHttpRequest Object</h5>
+<button type="button" onclick="loadDoc()">Request data</button>
+
+<div id="demo"></div>
+ 
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos");
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
