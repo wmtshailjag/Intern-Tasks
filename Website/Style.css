@@ -1,0 +1,77 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background: linear-gradient(rgba(44, 77, 114, 0.7), rgba(44, 77, 114, 0.7)),url("https://static.toiimg.com/thumb/msid-66784868,width-1070,height-580,imgsize-57672,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg");
+
+  min-height: 480px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+.nav{
+    color:black;
+}
+.nav-link:hover{
+    background-color:dimgrey;
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.search {
+    position: relative;
+}
+
+.search input {
+    height: 60px;
+    text-indent: 30px;
+    border: 2px solid #d6d4d4
+}
+
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+.calendar {
+    position: relative;
+}
+
+.calendar input {
+    height: 60px;
+    text-indent: 30px;
+    border: 2px solid #d6d4d4
+}
+
+
+.calendar .fa-calendar {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+#btn{
+    height: 60px;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
