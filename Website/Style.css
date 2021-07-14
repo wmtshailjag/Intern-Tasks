@@ -63,9 +63,33 @@ body {
 #btn {
   height: 60px;
 }
-.city {
+.newyork {
   background: linear-gradient(rgba(42, 42, 44, 0.5), rgba(42, 42, 44, 0.5)),
     url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ35u1RllKyTG9Tn1qSKlMcFZIr7rDoBzpeLw&usqp=CAU");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+.paris{
+  background: linear-gradient(rgba(42, 42, 44, 0.5), rgba(42, 42, 44, 0.5)),
+    url("https://i.pinimg.com/originals/bd/f8/07/bdf807137282243b7c2c7108b5de7497.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+.london{
+  background: linear-gradient(rgba(42, 42, 44, 0.5), rgba(42, 42, 44, 0.5)),
+    url("https://i.pinimg.com/originals/8a/dd/58/8add58729508546c36de44fc2245b675.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+.tokyo{
+  background: linear-gradient(rgba(42, 42, 44, 0.5), rgba(42, 42, 44, 0.5)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS7u1l2eeyzZOfCGp7S9tOQ_rQC1HEoo_X4Q&usqp=CAU");
   background-repeat: no-repeat;
   width: 100%;
   height: 400px;
