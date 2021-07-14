@@ -1,0 +1,51 @@
+body {
+   font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(29, 28, 28);
+    color: rgb(255, 251, 251);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .bg-img {
+    /* The image used */
+    background:  url("https://preview.cruip.com/neon/images/illustration-section-02.svg");
+
+    min-height: 680px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .bg-color {
+    background: radial-gradient(circle at bottom, #376DF9 0%, #ff79af 50%, #FF8D74 100%);
+    border-radius: 100%;
+    padding: 20px;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border-style: none;
+  }
+  
+  .icon {
+    padding: 13px;
+    background: white;
+    
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none; 
+    overflow: hidden;
+    border-color: transparent;
+    font-size: medium;
+  }
