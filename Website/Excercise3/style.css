@@ -1,0 +1,36 @@
+body {
+    font-family: "Open Sans",sans-serif;
+   }
+   * {
+     box-sizing: border-box;
+   }
+   .bg-img {
+    /* The image used */
+    background: url("bg.jpg");
+    width: 100%;
+    min-height: 600px;
+    /* Center and scale the image nicely */
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  @media (max-width: 576px){ 
+      .bg-img{
+          visibility: hidden;
+      }
+   }
+   .bg {
+    /* The image used */
+    background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%201137.5%20979.2%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23F9FBFF%22%20d%3D%22M565.5%2C957.4c81.1-7.4%2C155.5-49.3%2C202.4-115.7C840%2C739.8%2C857%2C570%2C510.7%2C348.3C-35.5-1.5-4.2%2C340.3%2C2.7%2C389%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20c0.7%2C4.7%2C1.2%2C9.5%2C1.7%2C14.2l29.3%2C321c14%2C154.2%2C150.6%2C267.8%2C304.9%2C253.8L565.5%2C957.4z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22mainHeroSVG1%22%20d%3D%22M1137.5%2C0H450.4l-278%2C279.7C22.4%2C430.6%2C24.3%2C675%2C176.8%2C823.5l0%2C0C316.9%2C960%2C537.7%2C968.7%2C688.2%2C843.6l449.3-373.4V0z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3CclipPath%20id%3D%22mainHeroSVG2%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23mainHeroSVG1%22%3E%3C%2Fuse%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2FclipPath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22matrix(1%200%200%201%200%200)%22%20clip-path%3D%22url(%23mainHeroSVG2)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20width%3D%22750%22%20height%3D%22750%22%20xlink%3Ahref%3D%22.%2Fassets%2Fimg%2F750x750%2Fimg2.jpg%22%20transform%3D%22matrix(1.4462%200%200%201.4448%2052.8755%200)%22%3E%3C%2Fimage%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-size:90%;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
