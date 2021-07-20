@@ -13,13 +13,17 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
 
+    </style>
     <title>Website Excercise 3</title>
   </head>
   <body>
@@ -80,7 +84,8 @@
           <a class="navbar-brand" href="https://webmobtech.com/"
             ><img
               src="https://htmlstream.com/front/assets/svg/logos/logo.svg"
-              width="50%"
+              width="100rem"
+              class="img-fluid"
             />
           </a>
           <button
@@ -261,7 +266,7 @@
             Attract more visitor, and win more bussiness with front template
           </div>
 
-          <div class="col-md-6 col-lg-6 col-sm-2 d-flex">
+          <div class="col-md-6 col-lg-6 col-sm-2 d-flex justify-content-between">
             <div
               class="btn text-primary mt-3"
               style="background-color: rgb(191, 220, 243)"
@@ -269,12 +274,12 @@
               Get started
             </div>
             <div
-              class="btn rounded-circle text-success mt-3 ms-lg-3"
+              class="btn rounded-circle text-success mt-3 "
               style="background-color: rgb(191, 220, 243)"
             >
-              <i class="fa fa-play"></i>
+              <i class="fa fa-play text-center"></i>
             </div>
-            <div class="align-self-center ms-3 mt-3">Play Video</div>
+            <div class="align-self-center  mt-3">Play Video</div>
           </div>
         </div>
         <div class="col-md-6">
@@ -283,8 +288,8 @@
       </div>
     </div>
 
-    <div class="container col-12 mt-5">
-      <div class="d-flex justify-content-center">
+    <div class="container col-12 ">
+      <div class="d-flex justify-content-center mt-5">
         <div
           class="btn rounded-pill text-success mt-3 ms-lg-3"
           style="background-color: rgb(191, 220, 243)"
@@ -299,7 +304,7 @@
         </div>
       </div>
     </div>
-    <div class="container col-12 mt-5 pt-5">
+    <div class="container col-12">
       <div class="row">
         <div class="col-md-4 col-sm-12 col-lg-4">
           <div class="card pb-5 border-0">
@@ -380,16 +385,16 @@
           </div>
         </div>
       </div>
-      <div class="col-12 mt-5 pt-5">
-        <div class="d-flex justify-content-center">
+      <div class="col-12 ">
+        <div class="d-flex justify-content-center mt-5 pt-5">
           <div class="fs-4 text-center">
-            It is fast and easy. Create your first ongoing<br />
+            It is fast and easy. Create your first ongoing
             website with Front
           </div>
         </div>
       </div>
-      <div class="col-12 mt-5 pt-5">
-        <div class="d-flex justify-content-center">
+      <div class="col-12 ">
+        <div class="d-flex justify-content-center mt-5">
           <img class="img-fluid" src="website-bg.png" />
         </div>
         <div class="d-flex justify-content-center mt-2">
@@ -400,9 +405,11 @@
         </div>
       </div>
     </div>
-    <div class="container col-12 mt-5 pt-5">
+    
+    <div class="mt-5 pt-5">
+    <div class="container col-12">
       <div class="row">
-        <div class="col-md-4 col-lg-4 col-sm-12">
+        <div class="col-md-4 col-lg-4 col-sm-12 text-center text-md-start">
           <div
             class="btn rounded-pill text-success mt-3 ms-lg-3"
             style="background-color: rgb(191, 220, 243)"
@@ -503,14 +510,15 @@
         </div>
       </div>
     </div>
+  </div>
     <div
-      class="container-fluid col-12 mt-5 pt-5"
+      class="container-fluid col-12 "
       style="
         background-image: linear-gradient(white, rgb(232, 247, 245));
         padding-bottom: 10rem;
       "
     >
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center mt-5 pt-5">
         <div
           class="btn rounded-pill text-success mt-3 ms-lg-3"
           style="background-color: rgb(191, 220, 243)"
@@ -531,36 +539,9 @@
       </div>
       <div class="container col-12">
         <div
-          id="carouselExampleDark"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
+          class="items"
         >
-          <div class="carousel-indicators" style="bottom: -70px">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <div class="row">
-                <div class="container col-md-3 col-sm-12 col-lg-3 offset-md-1">
+            
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -575,19 +556,18 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div
                     class="card card-block d-flex mt-5 mb-5 pb-5"
-                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180)"
+                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180);height: 450px;"
                   >
                     <div class="card-body">
-                      <div class="text-center fs-5">
+                      <div class="text-center fs-6">
                         " Anim duis dolore nostrud nulla non velit mollit
                         officia elit veniam ipsum. Aliqua irure eu ullamco
                         pariatur aliquip. Sunt amet magna id incididunt
@@ -595,11 +575,12 @@
                         consequat incididunt. "
                       </div>
                     </div>
-                    <div class="text-center fw-bold">Keith Margaret</div>
+                    <div class="text-center fw-bold mt-5">Keith Margaret</div>
                     <div class="d-flex justify-content-center">
                       <img
                         src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                         class="img-fluid reviewimg me-3"
+                        style="width: 80px;"
                       />
                     </div>
                     <div class="d-flex justify-content-center">
@@ -611,8 +592,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -627,17 +606,13 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <div class="row">
-                <div class="container col-md-3 col-sm-12 col-lg-3 offset-md-1">
+            
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -652,19 +627,18 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div
                     class="card card-block d-flex mt-5 mb-5 pb-5"
-                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180)"
+                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180);height: 450px;"
                   >
                     <div class="card-body">
-                      <div class="text-center fs-5">
+                      <div class="text-center fs-6">
                         " Anim duis dolore nostrud nulla non velit mollit
                         officia elit veniam ipsum. Aliqua irure eu ullamco
                         pariatur aliquip. Sunt amet magna id incididunt
@@ -672,11 +646,12 @@
                         consequat incididunt. "
                       </div>
                     </div>
-                    <div class="text-center fw-bold">Keith Margaret</div>
+                    <div class="text-center fw-bold mt-5">Keith Margaret</div>
                     <div class="d-flex justify-content-center">
                       <img
                         src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                         class="img-fluid reviewimg me-3"
+                        style="width: 80px;"
                       />
                     </div>
                     <div class="d-flex justify-content-center">
@@ -688,8 +663,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -704,17 +677,12 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="container col-md-3 col-sm-12 col-lg-3 offset-md-1">
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -729,19 +697,18 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div
                     class="card card-block d-flex mt-5 mb-5 pb-5"
-                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180)"
+                    style="box-shadow: 4px 2px 19px -1px rgb(180, 175, 180);height: 450px;"
                   >
                     <div class="card-body">
-                      <div class="text-center fs-5">
+                      <div class="text-center fs-6">
                         " Anim duis dolore nostrud nulla non velit mollit
                         officia elit veniam ipsum. Aliqua irure eu ullamco
                         pariatur aliquip. Sunt amet magna id incididunt
@@ -749,11 +716,12 @@
                         consequat incididunt. "
                       </div>
                     </div>
-                    <div class="text-center fw-bold">Keith Margaret</div>
+                    <div class="text-center fw-bold mt-5">Keith Margaret</div>
                     <div class="d-flex justify-content-center">
                       <img
                         src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                         class="img-fluid reviewimg me-3"
+                        style="width: 80px;"
                       />
                     </div>
                     <div class="d-flex justify-content-center">
@@ -765,8 +733,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container col-md-3 col-sm-12 col-lg-3">
                   <div class="card d-flex mt-5">
                     <div class="newyork img-fluid position-relative">
                       <div class="position-absolute" style="bottom: 10px">
@@ -781,60 +747,21 @@
                           <img
                             src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg"
                             class="img-fluid reviewimg me-3"
+                            style="width: 80px;"
                           />
                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-            style="width: 0px"
-          >
-            <span
-              class="fa fa-arrow-left text-primary"
-              style="
-                background: rgb(198, 216, 248);
-                border-radius: 100%;
-                padding: 20px;
-              "
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-            style="width: 0px"
-          >
-            <span
-              class="fa fa-arrow-right text-primary"
-              style="
-                background: rgb(198, 216, 248);
-                border-radius: 100%;
-                padding: 20px;
-              "
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </div>
     <!-- #footer-->
-    <div class="container col-12 pt-5t-5 pb-5">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-md-2 col-sm-12 col-lg-3">
-            <div class="col-md-3 col-sm-12 col-lg-2" style="line-height: 2rem">
+    <div class="container col-12">
+      <div class=" pt-5">
+          <div class="d-md-flex justify-content-md-between">
+            <div class="d-flex justify-content-between flex-md-fill" style="line-height: 2rem">
+                <div >
               <div class="fw-bolder mt-3">About</div>
               <a class="text-secondary text-decoration-none" href="#">About</a
               ><br />
@@ -843,8 +770,7 @@
               <a class="text-secondary text-decoration-none" href="#">Careers</a
               ><br />
             </div>
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-2" style="line-height: 2rem">
+            <div>
             <div class="fw-bolder mt-3">Account</div>
             <a class="text-secondary text-decoration-none" href="#">Account</a
             ><br />
@@ -852,8 +778,8 @@
             ><br />
             <a class="text-secondary text-decoration-none" href="#">Projects</a
             ><br />
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-3" style="line-height: 2rem">
+        </div>
+            <div>
             <div class="fw-bolder mt-3">Recources</div>
             <a class="text-secondary text-decoration-none" href="#">Help</a
             ><br />
@@ -861,38 +787,44 @@
             ><br />
             <a class="text-secondary text-decoration-none" href="#">Privacy</a
             ><br />
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-4">
-            <div class="fw-bolder mt-3">
-              We are driven to deliver results for all your <br />bussiness
+        </div>
+    </div>
+  
+          <div class="ms-md-5">
+              <div>
+            <div class="fw-bolder text-center text-md-start mt-3 ">
+              We are driven to deliver results for all your bussiness
             </div>
-            <div class="d-md-flex">
+        </div>
+        <div>
+            <div class=" d-md-flex text-center mt-2">
               <a href="#" class="btn btn-store btn-dark me-3">
                 <span class="fa fa-apple fa-2x pull-left"></span>
                 <span class="btn-label">Download on the</span>
                 <span class="btn-caption">App Store</span>
               </a>
-              <a href="#" class="btn btn-store btn-dark">
+              <a href="#" class="btn btn-store btn-dark me-3 mt-md-0 mt-2 ">
                 <span class="fa fa-android fa-2x pull-left"></span>
                 <span class="btn-label">Download on the</span>
                 <span class="btn-caption">Google Play</span>
               </a>
             </div>
+            </div>
+        </div>
+        </div>
           </div>
         </div>
         <hr class="mt-5" />
-        <div class="mt-5 text-white text-center">
-          <i class="fa fa-copyright"></i> 2020 Webmob Tech. All Rights Reserved.
-        </div>
       </div>
-      <div class="d-flex justify-content-center align-content-center">
+      <div class="d-flex justify-content-center align-content-center mt-5">
         <img
           src="https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2021/02/WMT_Horizontal_Original.png"
           height="50"
           width="200"
+          class="img-fluid"
         />
       </div>
-      <div class="mt-3 text-secondary text-center">
+      <div class="mt-3 text-secondary text-center pb-4">
         <i class="fa fa-copyright"></i> 2020 Webmob Tech. All Rights Reserved.
       </div>
     </div>
@@ -901,5 +833,43 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+$(document).ready(function(){
+$('.items').slick({
+    dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});});
+    </script>
   </body>
 </html>
